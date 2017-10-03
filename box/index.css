@@ -5,11 +5,30 @@
 }
 
 .shapeWrap {
-  width: 100%;
+  width: 50%;
 }
 
 .shape {
-  width: 100%;
-  padding-bottom: 30%;
+  /* overflow: hidden; */
+  position: relative;
+  height: 0;
+  padding-bottom: 56.52%;
   background: red;
+}
+
+.shape > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.triangle {
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom: 20px solid black;
+  width: 0;
 }
