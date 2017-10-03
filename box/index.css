@@ -3,3 +3,13 @@
   background: red;
   height: 40px;
 }
+
+.shapeWrap {
+  width: 100%;
+}
+
+.shape {
+  width: 100%;
+  padding-bottom: 30%;
+  background: red;
+}
