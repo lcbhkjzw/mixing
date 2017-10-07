@@ -1,0 +1,18 @@
+.container {
+  height: 500px;
+  border: 1px solid rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.float {
+  float: left;
+  background: blue;
+  width: 20%;
+  height: 50%;
+}
+
+.main {
+  background: green;
+  height: 100%;
+  text-align: center;
+}
