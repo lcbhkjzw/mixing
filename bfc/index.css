@@ -1,7 +1,7 @@
 .container {
-  height: 500px;
   border: 1px solid rgb(0, 0, 0);
-  overflow: hidden;
+  display: inline-block;
+  width: 100%;
 }
 
 .float {

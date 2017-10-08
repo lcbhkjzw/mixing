@@ -1,4 +1,8 @@
 li {
-  list-style-image: url("http://cdn-img.easyicon.net/png/12058/1205830.gif");
-  list-style-position: inside;
+  list-style-type: none;
+  padding-left: 14px;
+}
+
+li:before {
+  content: 'counter()'
 }
